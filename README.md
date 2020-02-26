@@ -1,4 +1,4 @@
-# PWA_TEKKAM_SERFAS
+# PWA_TEKAM_SERFAS
 Rendu du devoir de Programmation WEB avancée
 
 ## Une fois le web service lancé, il faut faire une requête post à l'adresse http://localhost:8080/pwa/services/automate/add/list avec RestClient ayant pour body le fichier automates.json puis une requete post à l'adresse http://localhost:8080/pwa/services/dailyReport/add/list ayant pour body le fichier dailyreports.json.
