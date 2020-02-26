@@ -1,0 +1,58 @@
+[{
+	"serial_number": 8,
+	"report_date":"2019-11-23T23:00:00.000+0000",
+	"status": "en service",
+
+	"automate_information":{
+		"state": "ok",
+		"temperature": 20,
+
+		"payment_state":{
+			"coins": "normal",
+			"smart_card": "normal",
+			"card": "normal"
+		}
+	},
+
+  "errors":[
+    {"type": "ax23", "description": "azerty"},
+    {"type": "cx400", "description": "qzerty"}
+  ],
+
+	"articles":[
+		{"name": "cafe", "quantity": 20, "type":"chaud"},
+		{"name": "chocolat", "quantity": 30,"type":"chaud"},
+		{"name": "oasis", "quantity": 10,"type":"froid"}
+	],
+
+	"income": 300
+},
+{
+	"serial_number": 9,
+	"report_date":"2019-11-23T23:00:00.000+0000",
+	"status": "hors service",
+
+	"automate_information":{
+		"state": "attention",
+		"temperature": 20,
+
+		"payment_state":{
+			"coins": "normal",
+			"smart_card": "normal",
+			"card": "normal"
+		}
+	},
+
+  "errors":[
+    {"type": "ax23", "description": "azerty"},
+    {"type": "cx400", "description": "qzerty"}
+  ],
+
+	"articles":[
+		{"name": "cafe", "quantity": 10, "type":"chaud"},
+		{"name": "chocolat", "quantity": 50,"type":"chaud"},
+		{"name": "oasis", "quantity": 20,"type":"froid"}
+	],
+
+	"income": 300
+}]

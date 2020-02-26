@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<daily_report>
+
+	<serial_number>3</serial_number>
+	<report_date>2019-11-23</report_date>
+	<status>En service</status>
+
+	<automate_information>
+		<state>Erreur</state>
+		<temperature>5</temperature>
+
+		<payment_state>
+			<coins>normal</coins>
+			<smart_card>erreur</smart_card>
+			<card>normal</card>
+		</payment_state>
+
+
+	</automate_information>
+
+	<errors>
+		<error>
+			<type>ax23</type>
+			<description>azerty</description>
+		</error>
+		<error>
+			<type>ab23</type>
+			<description>erreur ab23</description>
+		</error>
+	</errors>
+
+	<articles>
+		<article>
+			<name>Cafe</name>
+			<quantity>20</quantity>
+			<type>chaud</type>
+		</article>
+
+		<article>
+			<name>Chocolat</name>
+			<quantity>10</quantity>
+			<type>chaud</type>
+		</article>
+
+		<article>
+			<name>Eau</name>
+			<quantity>30</quantity>
+			<type>froid</type>
+		</article>
+
+	</articles>
+
+	<income>300</income>
+
+</daily_report>
